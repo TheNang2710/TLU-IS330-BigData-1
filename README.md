@@ -42,14 +42,12 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 Reload the shell configuration:
 ```bash
-Copy code
 source ~/.bashrc  # or source ~/.zshrc
 ```
 
 ## Step 3: Install PySpark
 Install PySpark using pip:
 ```bash
-Copy code
 pip install pyspark
 ```
 
