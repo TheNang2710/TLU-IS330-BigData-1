@@ -1,6 +1,6 @@
 # TLU-IS330-BigData-1
 
-## Short Guide
+## Installation Guide
 
 ### Step 1: Download and Set Up Apache Spark
 
