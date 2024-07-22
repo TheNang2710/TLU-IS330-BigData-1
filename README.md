@@ -12,7 +12,7 @@
    ```bash
    tar -xvf spark-<version>-bin-hadoop<version>.tgz
 
-## Set up the SPARK_HOME environment variable:
+3.  Set up the SPARK_HOME environment variable:
 
 Add the following lines to your .bashrc, .zshrc, or equivalent shell configuration file:
 ```bash
@@ -21,7 +21,7 @@ export SPARK_HOME=/path/to/spark-<version>-bin-hadoop<version>
 export PATH=$SPARK_HOME/bin:$PATH
 Reload the shell configuration:
 
-bash
+```bash
 Copy code
 source ~/.bashrc  # or source ~/.zshrc
 Step 2: Download and Set Up JDK 17
