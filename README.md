@@ -10,15 +10,16 @@
 
 2. **Extract the downloaded package:**
    ```bash
-   tar -xvf spark-<version>-bin-hadoop<version>.tgz
-
-3.  Set up the SPARK_HOME environment variable:
+   tar -xvf spark-<version>-bin-hadoop<version>.tgz```
+   
+3.  **Set up the SPARK_HOME environment variable:**
 
 Add the following lines to your .bashrc, .zshrc, or equivalent shell configuration file:
 ```bash
 Copy code
 export SPARK_HOME=/path/to/spark-<version>-bin-hadoop<version>
-export PATH=$SPARK_HOME/bin:$PATH
+export PATH=$SPARK_HOME/bin:$PATH```
+
 Reload the shell configuration:
 
 ```bash
@@ -27,23 +28,24 @@ source ~/.bashrc  # or source ~/.zshrc
 Step 2: Download and Set Up JDK 17
 Download JDK 17:
 
-Visit the Oracle JDK download page or use the OpenJDK from AdoptOpenJDK.
+4. **Visit the Oracle JDK download page or use the OpenJDK from AdoptOpenJDK.**
 Install JDK 17:
 
 Follow the instructions for your operating system.
 Set up the JAVA_HOME environment variable:
 
 Add the following lines to your .bashrc, .zshrc, or equivalent shell configuration file:
-bash
+```bash
 Copy code
 export JAVA_HOME=/path/to/jdk-17
 export PATH=$JAVA_HOME/bin:$PATH
 Reload the shell configuration:
 
-bash
+```bash
 Copy code
 source ~/.bashrc  # or source ~/.zshrc
-Step 3: Install PySpark
+
+## Step 3: Install PySpark
 Install PySpark using pip:
 bash
 Copy code
