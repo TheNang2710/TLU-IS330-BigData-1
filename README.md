@@ -57,7 +57,6 @@ pip install pyspark
 Create a simple script to verify the installation:
 
 ```python
-Copy code
 from pyspark import SparkConf, SparkContext
 ```
 
@@ -77,7 +76,6 @@ print(sc)
 Run the script to ensure everything is set up correctly:
 
 ```bash
-Copy code
 python verify_spark.py
 ```
 If the setup is correct, you should see output indicating that the SparkContext has been successfully initialized.
