@@ -15,6 +15,11 @@
 
 3.  **Set up the SPARK_HOME environment variable:**
 
+Open the ./zshrc file to add the environment variable
+```bash
+nano ~/.zshrc
+```
+
 Add the following lines to your .bashrc, .zshrc, or equivalent shell configuration file:
 ```bash
 export SPARK_HOME=/path/to/spark-<version>-bin-hadoop<version>
@@ -34,6 +39,11 @@ Install JDK 17:
 
 Follow the instructions for your operating system.
 Set up the JAVA_HOME environment variable:
+
+Open the ./zshrc file to add the environment variable
+```bash
+nano ~/.zshrc
+```
 
 Add the following lines to your .bashrc, .zshrc, or equivalent shell configuration file:
 ```bash
